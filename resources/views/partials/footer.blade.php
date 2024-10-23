@@ -111,7 +111,7 @@
             </div>
             <div class="socials d-flex align-items-center gap-3">
                 <h4 class="text-primary">FOLLOW US</h4>
-                <div class="icons-social">
+                <div class="icons-social d-flex gap-2">
                     <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="facebook-icon">
                     <img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="twitter-icon">
                     <img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="youtube-icon">
