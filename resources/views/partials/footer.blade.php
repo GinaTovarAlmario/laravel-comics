@@ -100,7 +100,7 @@
             </div>
         </div>
         <div class="footer-top-right">
-            <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="logo-big">
+            <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" class="logo-big" alt="logo-big">
         </div>
     </div>
     <div class="row footer-bottom bg-dark">
