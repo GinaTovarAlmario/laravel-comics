@@ -31,8 +31,38 @@
         </div>
     </div>
 </section>
-<section id="shop">
-    <div></div>
-
+<section class="container-fluid bg-primary" id="shop-banner">
+   <div class="row">
+        <div class="col">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="icons-shop d-flex justify-content-around py-4">
+                            <div>
+                                <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="original-comics">
+                                <span>DIGITAL COMICS</span>
+                            </div>
+                            <div>
+                                <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="merchandise">
+                                <span>DC MERCHANDISE</span>
+                            </div>
+                            <div>
+                                <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="subscritption">
+                                <span>SUBSCRIPTION</span>
+                            </div>
+                            <div>
+                                <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="shoplocator">
+                                <span>COMIC SHOP LOCATOR</span>
+                            </div>
+                            <div>
+                                <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}" alt="power-visa">
+                                <span>DC POWER VISA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
 </section>
 @endsection
