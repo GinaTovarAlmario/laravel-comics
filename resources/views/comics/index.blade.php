@@ -4,9 +4,13 @@
 
 
 @section("main-content")
-<section id="jumbotron">
-    <div class="jumbo-img">
-        <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}" alt="jumbotron">
+<section class="container-fluid" id="jumbotron">
+    <div class="row">
+        <div class="col g-0">
+            <div class="jumbo-img">
+                <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}" alt="jumbotron">
+            </div>
+        </div>
     </div>
 </section>
 <section id="comics" class="bg-dark pt-4">
@@ -26,5 +30,9 @@
             @endforeach
         </div>
     </div>
+</section>
+<section id="shop">
+    <div></div>
+
 </section>
 @endsection
