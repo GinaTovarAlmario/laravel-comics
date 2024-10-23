@@ -13,8 +13,14 @@
         </div>
     </div>
 </section>
-<section id="comics" class="bg-dark pt-4">
+<section id="comics" class="bg-dark">
     <div class="container">
+        <div class="row">
+            <div class="col g-0">
+                <button class="btn btn-primary current-series-button rounded-0">CURRENT SERIES</button>
+
+            </div>
+        </div>
         <div class="row justify-content-center">
             @foreach ($comics as $comic )
                 <div class="col-2 mb-3">
