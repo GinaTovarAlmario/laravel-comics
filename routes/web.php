@@ -19,6 +19,7 @@ Route::get('/', function () {
 
 Route::get('/comics', function () {
     // devo recuperare i dati
+    $comics = config("db");
 
-    return view('comics.index');
+    return view('comics.index', compact("comics"));
 })->name("comics.index");
