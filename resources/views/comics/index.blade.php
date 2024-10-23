@@ -2,7 +2,13 @@
 
 @section("page-title", "Comics")
 
+
 @section("main-content")
+<section id="jumbotron">
+    <div class="jumbo-img">
+        <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}" alt="jumbotron">
+    </div>
+</section>
 <section id="comics" class="bg-dark pt-4">
     <div class="container">
         <div class="row justify-content-center">
@@ -21,6 +27,4 @@
         </div>
     </div>
 </section>
-
-
 @endsection

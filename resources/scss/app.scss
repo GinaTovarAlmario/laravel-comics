@@ -9,7 +9,15 @@ ul{
     padding: 0;
     margin: 0;
 }
-//index.comics
+img{
+    max-width: 100%;
+}
+//jumbotron
+.jumbo-img{
+    height: 300px;
+    overflow: hidden;
+}
+//sectioncomics
 .box{
     height: 400px;
     background-color: transparent;
@@ -17,14 +25,6 @@ ul{
 .box-img{
     height: 250px;
 }
-
-
-
-
-
-
-
-
 // footer
 footer a{
     color: grey;
