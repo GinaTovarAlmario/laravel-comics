@@ -15,4 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages.home');
-});
+})->name("home-page");
+
+Route::get('/comics', function () {
+    // devo recuperare i dati
+
+    return view('comics.index');
+})->name("comics.index");
