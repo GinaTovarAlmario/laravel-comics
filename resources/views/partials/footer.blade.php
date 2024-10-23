@@ -103,19 +103,21 @@
             <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="logo-big">
         </div>
     </div>
-    <div class="footer-bottom bg-body d-flex justify-content-between">
-        <div class="sign-up">
-            <button type="button" class="btn btn-secondary border-2 border-primary text-white">SIGN-UP
-                NOW!</button>
-        </div>
-        <div class="socials d-flex align-items-center gap-3">
-            <h4 class="text-primary">FOLLOW US</h4>
-            <div class="icons-social">
-                <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="facebook-icon">
-                <img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="twitter-icon">
-                <img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="youtube-icon">
-                <img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt="pinterest-icon">
-                <img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="periscope-icon">
+    <div class="row footer-bottom bg-dark">
+        <div class="col py-4 d-flex justify-content-between">
+            <div class="sign-up">
+                <button type="button" class="btn btn-secondary border-2 border-primary text-white">SIGN-UP
+                    NOW!</button>
+            </div>
+            <div class="socials d-flex align-items-center gap-3">
+                <h4 class="text-primary">FOLLOW US</h4>
+                <div class="icons-social">
+                    <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="facebook-icon">
+                    <img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="twitter-icon">
+                    <img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="youtube-icon">
+                    <img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt="pinterest-icon">
+                    <img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="periscope-icon">
+                </div>
             </div>
         </div>
     </div>
