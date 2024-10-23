@@ -35,6 +35,15 @@
                 </div>
             @endforeach
         </div>
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center py-4">
+                    <button class="btn btn-primary rounded-0 px-5 fw-bold">
+                        LOAD MORE
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 <section class="container-fluid bg-primary" id="shop-banner">
