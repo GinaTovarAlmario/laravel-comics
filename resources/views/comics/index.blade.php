@@ -22,7 +22,7 @@
         </div>
         <div class="row justify-content-center">
             @foreach ($comics as $comic )
-                <div class="col-2 mb-3">
+                <div class="col-2 mt-3 mb-3">
                     <div class="card box text-white border border-0 ">
                             <img src="{{ $comic["thumb"] }}" class="card-img-top box-img rounded-0" alt="{{ $comic["title"] }}">
                         <div class="card-body">

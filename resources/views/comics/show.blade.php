@@ -5,8 +5,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 mb-3">
-                    <div class="card mb-4 bg-dark text-white">
-                        <img src="{{ $comic['thumb'] }}" class="card-img-top" alt="{{ $comic['title'] }}">
+                    <div class="card box-show mt-4 mb-4 bg-dark text-white border-0">
+                        <img src="{{ $comic['thumb'] }}" class="card-img-top show-img" alt="{{ $comic['title'] }}">
                         <div class="card-body">
                             <h5 class="card-title text-primary">
                                 {{ $comic['title'] }}
