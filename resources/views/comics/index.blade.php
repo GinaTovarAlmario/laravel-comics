@@ -18,7 +18,6 @@
         <div class="row">
             <div class="col g-0">
                 <button class="btn btn-primary current-series-button rounded-0">CURRENT SERIES</button>
-
             </div>
         </div>
         <div class="row justify-content-center">

@@ -13,9 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// rotta per la homepage
+
 Route::get('/', function () {
     return view('pages.home');
 })->name("home-page");
+
+// nuova rotta per andare a visualizzare la pagina index di comics
 
 Route::get('/comics', function () {
     // devo recuperare i dati
@@ -23,3 +27,17 @@ Route::get('/comics', function () {
 
     return view('comics.index', compact("comics"));
 })->name("comics.index");
+
+// una nuova rotta per la visualizzazione del singolo comic
+Route::get('/comics/{index}', function(string $index){
+    $comics = config('db');
+    if (isset($comics[$index])){
+        // prendo il singolo elemento
+        $comic = $comics[$index];
+        // ritorno la view dell'elemento considerato
+        return view ('comics.show',compact('comic'));
+    } else {
+        // mostra un errore
+        abort(404);
+    }
+})->name("comics.show");
