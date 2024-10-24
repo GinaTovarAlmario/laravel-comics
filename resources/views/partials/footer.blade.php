@@ -10,7 +10,7 @@
                                 <a href="#">Character</a>
                             </li>
                             <li>
-                                <a href="#">Comics</a>
+                                <a href="{{route("comics.index")}}">Comics</a>
                             </li>
                             <li>
                                 <a href="#">Movies</a>
