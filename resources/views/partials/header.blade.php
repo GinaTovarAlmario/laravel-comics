@@ -1,7 +1,7 @@
 <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary fw-bold text-secondary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{{route("home-page")}}">
                 <img src="{{ Vite::asset("resources/img/dc-logo.png")}}" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
             </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -10,7 +10,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Characters</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Comics</a>
+                    <a class="nav-link" href="{{route("comics.index")}}">Comics</a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link" href="#">Movies</a>
